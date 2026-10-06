@@ -1,0 +1,13 @@
+{
+ "onboarding_type": "copied",
+ "is_archived": false,
+ "maintained_action_name": "step-security/required-approvals",
+ "upstream_full_action_name": "skymoore/required-approvals",
+ "action_type": "node",
+ "current_version": "v5.0.0",
+ "sync_config": {
+  "ignore_presets": [
+   "defaults_v1"
+  ]
+ }
+}
