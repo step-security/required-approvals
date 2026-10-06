@@ -1,0 +1,32 @@
+{
+  "author": "step-security",
+  "bugs": {
+    "url": "https://github.com/step-security/required-approvals/issues"
+  },
+  "dependencies": {
+    "@actions/core": "^2.0.3",
+    "@octokit/rest": "^22.0.0",
+    "axios": "^1.20.0",
+    "minimatch": "^10.2.6"
+  },
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
+  },
+  "homepage": "https://github.com/step-security/required-approvals",
+  "name": "@step-security/required-approvals",
+  "private": true,
+  "publisher": "step-security",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/step-security/required-approvals.git"
+  },
+  "scripts": {
+    "build": "ncc build src/index.js -o dist",
+    "test": "node --test"
+  },
+  "version": "5.0.0",
+  "devDependencies": {
+    "@vercel/ncc": "^0.45.0"
+  }
+}
