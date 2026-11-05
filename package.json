@@ -7,7 +7,7 @@
     "@actions/core": "^2.0.3",
     "@octokit/rest": "^22.0.0",
     "axios": "^1.20.0",
-    "minimatch": "^10.2.6"
+    "minimatch": "^11.0.4"
   },
   "engines": {
     "node": ">=24",
